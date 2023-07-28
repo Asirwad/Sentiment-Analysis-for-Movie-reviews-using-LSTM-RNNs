@@ -42,3 +42,17 @@ We'll use a word embedding layer as the first layer in our model and add a LSTM 
     </tr>
   </table>
 </div>
+
+## Contributing
+
+We welcome contributions from the open source community. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+
+We would like to acknowledge the following resources and libraries used in this project:
+
+- <img src="https://www.tensorflow.org/images/tf_logo_social.png" alt="TensorFlow" width="80" align="center"> TensorFlow: [https://www.tensorflow.org/](https://www.tensorflow.org/)
+
+## Contact
+
+For any questions or inquiries, please contact us at [asirwadsali@gmail.com](mailto:asirwadsali@gmail.com).
