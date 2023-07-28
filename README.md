@@ -1,7 +1,7 @@
 # Sentiment Analysis for Movie reviews using LSTM RNNs
 
 <p align="center">
-  <img src="https://github.com/Asirwad/Sentiment-Analysis-for-Movie-reviews-using-LSTM-RNNs/assets/85600836/59bbb5f5-f0da-44c9-b8a7-eb3230dae33e" alt="Project Logo" width="300">
+  <img src="https://github.com/Asirwad/Sentiment-Analysis-for-Movie-reviews-using-LSTM-RNNs/assets/85600836/59bbb5f5-f0da-44c9-b8a7-eb3230dae33e" alt="Project Logo" width="250">
 </p>
 
 *the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer's attitude towards a particular topic, product, etc. is positive, negative, or neutral.*
