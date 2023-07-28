@@ -2,7 +2,6 @@ from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing.text import text_to_word_sequence
 from tensorflow.keras.preprocessing import sequence
 
-
 # Get the word index from the IMDb dataset
 word_index = imdb.get_word_index()
 MAX_LEN = 250
@@ -28,3 +27,9 @@ def encode_text(text):
     # The 'MAX_LEN' variable determines the maximum length of the sequences
     padded_encoded_text = sequence.pad_sequences([encoded_text], MAX_LEN)[0]
     return padded_encoded_text
+
+
+def encode_text_v2(text):
+    tokens = text_to_word_sequence(text)
+    tokens = [word_index[word] if word in word_index else 0 for word in tokens]
+    return sequence.pad_sequences([tokens], MAX_LEN)[0]
